@@ -1,0 +1,25 @@
+Callback functions - Callback functions are functions that are passed in as an argument of another
+higher function. They are called callback functions because at some point they are "called" by the
+higher function.
+
+Closure - Closure refers to a function keeping access to it's parent's scope even after it's parent
+function has returned. This means that an inner function can remember it's outer functions even when
+accessed later in the program.
+
+arguments - Javascript functions have a built-in object called arguments. This object contains an array
+of all the arguments passed in the the function. If you were to call function numbers with
+numbers(1,2,3,4,5), the arguments object, when used inside that function, would be an array containing
+the values 1,2,3,4, and 5.
+
+Recursion - Recursion is term for  a programming technique in which a function calls itself. It
+provides another way to iterate over data, and typically uses less code than a for loop.
+
+Prototype - A prototype is a function that all objects of a given type can use. Prototypes can save
+on a tremendous amount of code, because rather than every single object of a given type having its
+own line of code, every cat object can use the prototype by default. This can speed up programs
+dramatically.
+
+Constructors - A constructor is a function made to create unique objects over and over again. for
+example, if you need a database full of many user's info, rather than having to create each user
+with it's own line of code, you would use a constructor function and simply recall the function to
+create a new user.
